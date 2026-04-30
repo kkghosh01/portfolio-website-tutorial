@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+    </head>
+    <body>
+        <!-- All content goes to here -->
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="container nav-container">
+                <div class="logo">K <span>.</span>dev</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        <!-- HERO -->
+        <section class="hero" id="home">
+            <div class="hero-glow"></div>
+            <div class="container hero-wrapper">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hi, I'm</p>
+                    <h1 class="hero-name">Kishor <span>Kumar</span></h1>
+                    <h2 class="hero-title">Frontend Developer</h2>
+                    <p class="hero-desc">
+                        I buils beautiful, responsive websites that users love.
+                        I work with React, Next.js and modern CSS.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary"
+                            >View My Work</a
+                        >
+                        <a href="#contact" class="btn btn-outline">Hire Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./images/hero.png" alt="Kishor Kumar" />
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img
+                            src="./images/about.png"
+                            alt="Kishor Kumar"
+                            class="about-img"
+                        />
+                    </div>
+                    <div class="about-text">
+                        <h3>Frontend Developer & UI Enthusiast</h3>
+                        <p>
+                            I'm a passionate frontend developer who loves
+                            building clean, responsive websites. I focus on
+                            turning ideas into great digital experiences.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Years Learning</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">5⭐</span>
+                                <span class="stat-label">Client Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">MY <span>Skills</span></h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="devicon-html5-plain colored"></i>
+                        <h4>HTML</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-css3-plain colored"></i>
+                        <h4>CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-javascript-plain colored"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-react-original colored"></i>
+                        <h4>React</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-nextjs-plain"></i>
+                        <h4>Next.js</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-tailwindcss-plain colored"></i>
+                        <h4>Tailwind CSS</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-typescript-plain colored"></i>
+                        <h4>TypeScript</h4>
+                    </div>
+                    <div class="skill-card">
+                        <i class="devicon-nodejs-plain colored"></i>
+                        <h4>Node.js</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img
+                                src="./images/projects/project1.png"
+                                alt="Foodee Restaurant"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3>Foodee Restaurant</h3>
+                            <p>
+                                A modern restaurant landing page with beautiful
+                                UI and animations
+                            </p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">Live →</a>
+                                <a href="#" class="project-btn outline">
+                                    GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img
+                                src="images/projects/project2.png"
+                                alt="Nexora Dashboard"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3>Nexora Dashboard</h3>
+                            <p>
+                                Full-featured admin dashboard with charts, data
+                                tables and dark theme.
+                            </p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>TypeScript</span>
+                                <span>Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">Live →</a>
+                                <a href="#" class="project-btn outline"
+                                    >GitHub</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img
+                                src="images/projects/project3.png"
+                                alt="Portfolio CMS"
+                            />
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfolio CMS</h3>
+                            <p>
+                                Full-stack portfolio with content management
+                                system built in Next.js.
+                            </p>
+                            <div class="project-tags">
+                                <span>Next.js</span>
+                                <span>Convex</span>
+                                <span>Zod</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-btn">Live →</a>
+                                <a href="#" class="project-btn outline"
+                                    >GitHub</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="conatct" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In <span>Touch</span></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Interested in working together? Let's talk</h3>
+                        <p>
+                            Whether it's a freelance project, a full-time
+                            opportunity, or just a hello - feel free to
+                            messageme.
+                        </p>
+                        <div class="contact-links">
+                            <a href="mailto:your@email.com" class="contact-link"
+                                >📧 your@email.com</a
+                            >
+                            <a href="#" class="contact-link"
+                                >💼 Fiverr profile</a
+                            >
+                            <a href="#" class="contact-link">
+                                <i class="devicon-github-original"></i>
+                                GitHub</a
+                            >
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Nmae" />
+                        <input type="email" placeholder="Your Email" />
+                        <textarea
+                            rows="5"
+                            placeholder="Your Message"
+                        ></textarea>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container footer-content">
+                <div class="logo">K <span>.</span>dev</div>
+                <p>© 2026 Kishor Kumar. Buit with 💖 & pure code.</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
